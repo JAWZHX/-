@@ -1,0 +1,35 @@
+<!--pages/classify/classify.wxml-->
+<view class='content'>
+<!-- 搜索条 -->
+  <view class='search'>
+    <view class='icon'>
+      <image src='/pages/images/icon/search.jpg'></image>
+    </view>
+    <input type='text' placeholder='菜谱搜索'></input>
+  </view>
+<!-- 自定义分类 -->
+  <view class='classify-list'>
+    <view class='title'>
+      <view class='main-title'>自定义分类</view>
+      <view class='sub-title'>任意选择两个可放在首页上</view>
+    </view>
+    <view class='classify'>
+      <button>健身菜谱</button>
+      <button>饼</button>
+      <button>吃吃</button>
+      <button>炒菜</button>
+      <button>素</button>
+      <button>我爱</button>
+      <button>主食（一人）</button>
+      <button>菜</button>
+      <button>爱心早餐</button>
+      <button>独特川凉菜</button>
+      <button>面食主食类</button>
+      <button>凉菜素拌类</button>
+      <button>独特精品类</button>
+      <button>奇葩小吃类</button>
+      <button>年夜饭</button>
+      <button>每日菜单</button>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,37 @@
+<!--pages/subjectDetail/subjectDetail.wxml-->
+<view class='content'>
+  <view class='item'>
+    <view class='pic'>
+      <image src='/pages/images/detail/pdsrz.jpg' style='width:624rpx;height:438rpx;'></image>
+    </view>
+    <view class='opr'>
+      <view>
+        <image src='/pages/images/icon/xingxing.jpg' style='width:36rpx; height:34rpx;'></image>
+      </view>
+      <view>17841</view>
+      <view class='zw'></view>
+      <view>
+        <image src='/pages/images/icon/huifu.jpg' style='width:42rpx;height:40rpx;'></image>
+      </view>
+      <view>48</view>
+    </view>
+    <view class='hr'></view>
+  </view>
+  <view class='item'>
+    <view class='pic'>
+      <image src='/pages/images/detail/ycqdb.jpg' style='width:624rpx;height:438rpx;'></image>
+    </view>
+    <view class='opr'>
+      <view>
+        <image src='/pages/images/icon/xingxing.jpg' style='width:36rpx; height:34rpx;'></image>
+      </view>
+      <view>469</view>
+      <view class='zw'></view>
+      <view>
+        <image src='/pages/images/icon/huifu.jpg' style='width:42rpx;height:40rpx;'></image>
+      </view>
+      <view>7</view>
+    </view>
+    <view class='hr'></view>
+  </view>
+</view>

@@ -1,0 +1,54 @@
+<!--pages/subject/subject.wxml-->
+<view class='content'>
+  <!-- 顶部轮播图 -->
+  <view class='section'>
+    <swiper autoplay='true' interval='3000' duration='1000' indicator-dots='true' indicator-color='white' indicator-active-color='blue'>
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src='{{item}}' class='slide-image'></image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+  <!-- 操作按钮 -->
+  <view class='opr'>
+    <view class='btn'>
+      <view>
+        <image src='/pages/images/icon/zuixin.jpg'></image>
+      </view>
+      <view>最新</view>
+    </view>
+    <view class='btn'>
+      <view>
+        <image src='/pages/images/icon/zuire.jpg'></image>
+      </view>
+      <view>最热</view>
+    </view>
+  </view>
+  <!-- 菜谱列表 -->
+  <view class='list'>
+    <block wx:for="{{list}}">
+      <view class='item' bindtap='seeDetail' id='{{item.id}}'>
+        <view>
+          <image src='{{item.pic}}' style="width:156rpx;height:120rpx;"></image>
+        </view>
+        <view class='desc'>
+          <view class='title'>{{item.title}}</view>
+          <view class='count'>
+            <view>共{{item.count}}个菜谱</view>
+            <view>
+              <image src='/pages/images/icon/xingxing.jpg' style='width:36rpx;height:34rpx;'></image>
+            </view>
+            <view>{{item.star}}</view>
+            <view>
+              <image src='/pages/images/icon/yanjing.jpg' style='width:46rpx;height:34rpx;'></image>
+            </view>
+            <view>{{item.review}}</view>
+          </view>
+        </view>
+      </view>
+      <view class='hr'></view>
+    </block>
+  </view>
+</view>

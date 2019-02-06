@@ -1,0 +1,30 @@
+/* pages/subjectDetail/subjectDetail.wxss */
+.content {
+  background-color: #f2f2f2;
+}
+
+.pic {
+  text-align: center;
+  padding-top: 40rpx;
+}
+
+.opr {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  margin-left: 60%;
+  font-size: 28rpx;
+  color: #666;
+}
+
+.zw {
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+
+.hr {
+  height: 1rpx;
+  background-color: #ccc;
+  opacity: 0.5;
+}

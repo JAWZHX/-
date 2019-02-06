@@ -1,0 +1,62 @@
+/* pages/classify/classify.wxss */
+/* 搜索条 */
+.search {
+  position: relative;
+  padding: 20rpx 40rpx;
+}
+
+.search .icon {
+  position: absolute; 
+  top: 32rpx;
+  left: 54rpx;
+}
+
+.search .icon image {
+  width: 46rpx;
+  height: 46rpx;
+}
+
+.search input {
+  box-sizing: border-box;
+  border-radius: 70rpx;
+  box-shadow: 0 2rpx 2rpx black inset;
+  height: 70rpx;
+  line-height: 70rpx;
+  padding: 0rpx 70rpx;
+  background-color: #F9F9F7;
+}
+
+/* 自定义分类 */
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  line-height: 80rpx;
+  background-color: #ccc;
+}
+
+.title .main-title {
+  color: black;
+  font-weight: bold;
+}
+
+.title .sub-title {
+  color: #aaa;
+  font-size: 30rpx;
+}
+
+.classify {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 20rpx;
+}
+
+.classify button {
+  width: 43%;
+  height: 100rpx;
+  line-height: 100rpx;
+  margin-top: 20rpx;
+  font-size: 34rpx;
+}
