@@ -54,9 +54,10 @@
 }
 
 .classify button {
-  width: 43%;
+  width: 41%;
   height: 100rpx;
   line-height: 100rpx;
   margin-top: 20rpx;
   font-size: 34rpx;
+  border: none;
 }

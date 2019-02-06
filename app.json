@@ -1,8 +1,8 @@
 {
   "pages":[
-    "pages/classify/classify",
     "pages/subject/subject",
     "pages/subjectDetail/subjectDetail",
+    "pages/classify/classify",
     "pages/download/download",
     "pages/me/me",
     "pages/setup/setup"

@@ -2,7 +2,7 @@
 <view class='content'>
   <!-- 顶部轮播图 -->
   <view class='section'>
-    <swiper autoplay='true' interval='3000' duration='1000' indicator-dots='true' indicator-color='white' indicator-active-color='blue'>
+    <swiper autoplay='true' interval='3000' duration='1000'>
       <block wx:for="{{imgUrls}}">
         <swiper-item>
           <image src='{{item}}' class='slide-image'></image>
